@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
   <div class="container">
-    <a class="navbar-brand" href="#">Dating App</a>
+    <a class="navbar-brand" routerLink='/'>Dating App</a>
 
     <!-- <button
       class="navbar-toggler"
@@ -15,21 +15,16 @@
     </button>-->
 
     <ul class="navbar-nav mr-auto" *ngIf="accountService.currentUser$ | async">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Matches</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Lists</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Messages</a>
-      </li>
-            <li class="nav-item">
-              <a class="nav-link" >Edit Profile</a>
-            </li>
-      <li class="nav-item">
-        <a class="nav-link" (click)="logout()">Logout</a>
-      </li>
+      <ng-container>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive='active' routerLink='/members'>Matches</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLinkActive='active' routerLink='/lists'>Lists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLinkActive='active' routerLink='/messages'> Messages</a>
+        </li></ng-container>
     </ul>
 
     <!-- <div class="dropdown btn-group" appDropdown>
@@ -43,8 +38,8 @@
       </div>
     </div> -->
 
-    <div *ngIf="accountService.currentUser$ | async" class="btn-group dropdown" appDropdwon>
-      <span style="color: aliceblue;" type="button" class="dropdown-toggle">
+    <!-- <div *ngIf="accountService.currentUser$ | async" class="btn-group dropdown" appDropdwon> -->
+      <!-- <span style="color: aliceblue;" type="button" class="dropdown-toggle">
         Welcome user
         <span class="caret"></span>
       </span>
@@ -55,7 +50,16 @@
         <li style="border: 3px solid green">
           <a (click)="logout()">Logout</a>
         </li>
-      </ul>
+      </ul> -->
+      <div style="cursor: pointer;" *ngIf="accountService.currentUser$ | async" class='navbar-nav mr-6'>
+        <ng-container >
+        <li class="nav-item  ">
+          <a class="nav-link">Edit Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">Logout</a>
+        </li></ng-container>
+
     </div>
 
     <form
@@ -79,7 +83,7 @@
         type="password"
         placeholder="Password"
       />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">
         Login
       </button>
     </form>
