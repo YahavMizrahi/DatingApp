@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: rgb(0, 48, 121);">
   <div class="container">
     <a class="navbar-brand" routerLink='/'>Dating App</a>
 
@@ -14,8 +14,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>-->
 
-    <ul class="navbar-nav mr-auto" *ngIf="accountService.currentUser$ | async">
-      <ng-container>
+    <ul class="navbar-nav mr-auto" >
+      <ng-container *ngIf="accountService.currentUser$ | async">
         <li class="nav-item">
           <a class="nav-link" routerLinkActive='active' routerLink='/members'>Matches</a>
         </li>
@@ -24,7 +24,11 @@
         </li>
         <li class="nav-item">
           <a class="nav-link " routerLinkActive='active' routerLink='/messages'> Messages</a>
-        </li></ng-container>
+        </li>
+      </ng-container>
+              <li class="nav-item">
+                <a class="nav-link " routerLinkActive='active' routerLink='/errors'> Errors</a>
+              </li>
     </ul>
 
     <!-- <div class="dropdown btn-group" appDropdown>
