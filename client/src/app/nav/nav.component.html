@@ -40,10 +40,10 @@
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" (click)="logout()">Logout</a>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <div *ngIf="accountService.currentUser$ | async" class="btn-group dropdown" appDropdwon> -->
-      <!-- <span style="color: aliceblue;" type="button" class="dropdown-toggle">
+    <div *ngIf="accountService.currentUser$ | async" class="btn-group dropdown" appDropdwon>
+      <span style="color: aliceblue;" type="button" class="dropdown-toggle">
         Welcome user
         <span class="caret"></span>
       </span>
@@ -54,11 +54,14 @@
         <li style="border: 3px solid green">
           <a (click)="logout()">Logout</a>
         </li>
-      </ul> -->
+      </ul>
+      </div> -->
+
+
       <div style="cursor: pointer;" *ngIf="accountService.currentUser$ | async" class='navbar-nav mr-6'>
         <ng-container >
         <li class="nav-item  ">
-          <a class="nav-link">Edit Profile</a>
+          <a routerLink='/member/edit' class="nav-link">Edit Profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" (click)="logout()">Logout</a>
