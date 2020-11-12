@@ -39,7 +39,7 @@ namespace API.Controllers
     }
 
     // api/users/username
-    [HttpGet("{username}", Name = "GetUser" )]
+    [HttpGet("{username}", Name = "GetUser")]
     public async Task<ActionResult<MemberDto>> GetUser(string username)
     {
       return await _userRepository.GetMemberAsync(username);
@@ -48,7 +48,7 @@ namespace API.Controllers
     [HttpPut]
     public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
     {
-      var user = await _userRepository.GetUserByUserNameAsync(  User.GetUsername() );
+      var user = await _userRepository.GetUserByUserNameAsync(User.GetUsername());
 
       _mapper.Map(memberUpdateDto, user);
       _userRepository.Update(user);
@@ -56,10 +56,10 @@ namespace API.Controllers
       return BadRequest("Failed to update user");
     }
 
-    [HttpPost( "add-photo" )]
+    [HttpPost("add-photo")]
     public async Task<ActionResult<PhotoDto>> AddPhoto(IFormFile file)
     {
-      var user = await _userRepository.GetUserByUserNameAsync(  User.GetUsername() );
+      var user = await _userRepository.GetUserByUserNameAsync(User.GetUsername());
       var result = await _photoService.AddPhotoAsync(file);
 
       if (result.Error != null) return BadRequest(result.Error.Message);
@@ -77,9 +77,9 @@ namespace API.Controllers
 
       user.Photos.Add(photo);
 
-      if ( await _userRepository.SaveAllAsync())
+      if (await _userRepository.SaveAllAsync())
       {
-        return CreatedAtRoute("GetUser", new { username = user.UserName }, _mapper.Map<PhotoDto>(photo) );
+        return CreatedAtRoute("GetUser", new { username = user.UserName }, _mapper.Map<PhotoDto>(photo));
       }
 
       return BadRequest("Problem adding photo");
