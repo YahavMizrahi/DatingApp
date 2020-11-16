@@ -1,6 +1,9 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: rgb(0, 48, 121);">
+<nav
+  class="navbar navbar-expand-md navbar-dark fixed-top"
+  style="background-color: rgb(0, 48, 121)"
+>
   <div class="container">
-    <a class="navbar-brand" routerLink='/'>Dating App</a>
+    <a class="navbar-brand nameapp" routerLink="/">Dating App</a>
 
     <!-- <button
       class="navbar-toggler"
@@ -14,21 +17,29 @@
       <span class="navbar-toggler-icon"></span>
     </button>-->
 
-    <ul class="navbar-nav mr-auto" >
+    <ul class="navbar-nav mr-auto">
       <ng-container *ngIf="accountService.currentUser$ | async">
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive='active' routerLink='/members'>Matches</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="/members"
+            >Matches</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link " routerLinkActive='active' routerLink='/lists'>Lists</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="/lists"
+            >Lists</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link " routerLinkActive='active' routerLink='/messages'> Messages</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="/messages">
+            Messages</a
+          >
         </li>
       </ng-container>
-              <li class="nav-item">
-                <a class="nav-link " routerLinkActive='active' routerLink='/errors'> Errors</a>
-              </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/errors">
+          Errors</a
+        >
+      </li>
     </ul>
 
     <!-- <div class="dropdown btn-group" appDropdown>
@@ -57,20 +68,25 @@
       </ul>
       </div> -->
 
+    <div
+      style="cursor: pointer"
+      *ngIf="(accountService.currentUser$ | async) as user"
+      class="navbar-nav mr-6"
+    >
+      <ng-container>
+          <img src="{{user.photoUrl}}" alt="{{user.username}}"/>
 
-      <div style="cursor: pointer;" *ngIf="accountService.currentUser$ | async" class='navbar-nav mr-6'>
-        <ng-container >
-        <li class="nav-item  ">
-          <a routerLink='/member/edit' class="nav-link">Edit Profile</a>
+        <li class="nav-item">
+          <a routerLink="/member/edit" class="nav-link">Edit Profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" (click)="logout()">Logout</a>
-        </li></ng-container>
-
+        </li></ng-container
+      >
     </div>
 
     <form
-      *ngIf="(accountService.currentUser$ | async)===null"
+      *ngIf="(accountService.currentUser$ | async) === null"
       #loginForm="ngForm"
       class="form-inline mt-2 mt-md-0"
       (ngSubmit)="login()"
@@ -90,9 +106,7 @@
         type="password"
         placeholder="Password"
       />
-      <button class="btn btn-success my-2 my-sm-0" type="submit">
-        Login
-      </button>
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
     </form>
   </div>
 </nav>
