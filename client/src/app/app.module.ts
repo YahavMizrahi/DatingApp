@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +15,6 @@ import { MemberDetailComponent } from './members/member-detail/member-detail.com
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
-import { ToastrModule } from 'ngx-toastr';
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
@@ -31,33 +30,34 @@ import { PhotoEditorComponent } from './members/photo-editor/photo-editor.compon
   declarations: [
     AppComponent,
     NavComponent,
-    DropdownDirective, 
-    HomeComponent, 
-    RegisterComponent, 
-    MemberListComponent, 
-    MemberDetailComponent, 
-    ListsComponent, 
+    DropdownDirective,
+    HomeComponent,
+    RegisterComponent,
+    MemberListComponent,
+    MemberDetailComponent,
+    ListsComponent,
     MessagesComponent,
     TestErrorsComponent,
     NotFoundComponent,
     ServerErrorComponent,
     MemberCardComponent,
     MemberEditComponent,
-    PhotoEditorComponent],
+    PhotoEditorComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     SharedModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
   ],
   providers: [
-    {provide:HTTP_INTERCEPTORS, useClass:ErrorInterceptor, multi:true},
-    {provide:HTTP_INTERCEPTORS, useClass:JwtInterceptor, multi:true},
-    {provide:HTTP_INTERCEPTORS, useClass:LoadingInterceptor, multi:true}
-
+    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true },
   ],
   bootstrap: [AppComponent],
 })
