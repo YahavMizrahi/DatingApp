@@ -41,6 +41,12 @@ namespace API.Data.Repository
 
       query = query.Where(u => u.DateOfBirth >= minDob && u.DateOfBirth <= maxDob);
 
+      query = userParams.OrderBy switch
+      {
+        "created" => query.OrderByDescending(u => u.Created),
+        _ => query.OrderByDescending(u => u.LastActive)
+      };
+
       return await PagedList<MemberDto>.CreateAsync(
         query.ProjectTo<MemberDto>(_mapper.ConfigurationProvider).AsNoTracking(),
         userParams.PageNumber,
@@ -64,7 +70,9 @@ namespace API.Data.Repository
 
     public async Task<AppUser> GetUserByUserNameAsync(string username)
     {
-      return await _context.Users.Include(p => p.Photos).SingleOrDefaultAsync(x => x.UserName == username);
+      return await _context.Users
+      .Include(p => p.Photos)
+      .SingleOrDefaultAsync(x => x.UserName == username);
     }
 
     public void Update(AppUser user)
