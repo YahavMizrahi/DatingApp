@@ -1,5 +1,4 @@
 import { AccountService } from './account.service';
-import { element } from 'protractor';
 import { UserParams } from './../_models/userParams';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -7,7 +6,7 @@ import { environment } from 'src/environments/environment';
 import { Member } from '../_models/member';
 import { PaginatedResult } from '../_models/paginations';
 import { map, take } from 'rxjs/operators';
-import { of, pipe } from 'rxjs';
+import { of } from 'rxjs';
 import { User } from '../_models/user';
 
 @Injectable({
@@ -34,7 +33,7 @@ export class MembersService {
     return this.userParams;
   }
 
-  setUserParams(params:  UserParams) {
+  setUserParams(params: UserParams) {
     this.userParams = params;
   }
 
@@ -117,5 +116,14 @@ export class MembersService {
 
   deletePhoto(photoId: number) {
     return this.http.delete(this.baseurl + 'users/delete-photo/' + photoId, {});
+  }
+
+  addLike(username: string) {
+    return this.http.post(this.baseurl + 'likes/' + username, {});
+  }
+  getLikes(predicate: string, pageNumber: number, pageSize: number) {
+    let params = this.getPaginationHeaders(pageNumber, pageSize);
+    params  =  params.append('predicate',  predicate);
+    return this.getPaginatedResult<Partial<Member[]>>(this.baseurl + 'likes', params);
   }
 }
