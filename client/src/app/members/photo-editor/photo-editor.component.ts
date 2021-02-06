@@ -1,5 +1,4 @@
 import { Photo } from './../../_models/photo';
-import { UrlTree } from '@angular/router';
 import { MembersService } from 'src/app/_services/members.service';
 import { take } from 'rxjs/operators';
 import { Component, Input, OnInit } from '@angular/core';
@@ -17,13 +16,13 @@ import { environment } from 'src/environments/environment';
 export class PhotoEditorComponent implements OnInit {
   @Input() member: Member;
   uploader: FileUploader;
-  hasBaseDropZoneOver = false;
+  hasBaseDropzoneOver = false;
   baseUrl = environment.apiUrl;
   user: User;
 
   constructor(
     private accountService: AccountService,
-    private membersService: MembersService
+    private memberService: MembersService
   ) {
     this.accountService.currentUser$
       .pipe(take(1))
@@ -35,7 +34,25 @@ export class PhotoEditorComponent implements OnInit {
   }
 
   fileOverBase(e: any) {
-    this.hasBaseDropZoneOver = e;
+    this.hasBaseDropzoneOver = e;
+  }
+
+  setMainPhoto(photo: Photo) {
+    this.memberService.setMainPhoto(photo.id).subscribe(() => {
+      this.user.photoUrl = photo.url;
+      this.accountService.setCurrentUser(this.user);
+      this.member.photoUrl = photo.url;
+      this.member.photos.forEach((p) => {
+        if (p.isMain) p.isMain = false;
+        if (p.id === photo.id) p.isMain = true;
+      });
+    });
+  }
+
+  deletePhoto(photoId: number) {
+    this.memberService.deletePhoto(photoId).subscribe(() => {
+      this.member.photos = this.member.photos.filter((x) => x.id !== photoId);
+    });
   }
 
   initializeUploader() {
@@ -64,22 +81,5 @@ export class PhotoEditorComponent implements OnInit {
         }
       }
     };
-  }
-
-  setMainPhoto(photo: Photo) {
-    this.membersService.setMainPhoto(photo.id).subscribe(() => {
-      this.user.photoUrl = photo.url;
-      this.accountService.setCurrentUser(this.user);
-      this.member.photoUrl = photo.url;
-      this.member.photos.forEach((p) => {
-        if (p.isMain) p.isMain = false;
-        if (p.id === photo.id) p.isMain = true;
-      });
-    });
-  }
-  deletePhoto(photoId: number) {
-    this.membersService.deletePhoto(photoId).subscribe(() => {
-      this.member.photos = this.member.photos.filter((x) => x.id !== photoId);
-    });
   }
 }
