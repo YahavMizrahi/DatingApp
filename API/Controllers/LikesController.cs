@@ -24,7 +24,7 @@ namespace API.Controllers
     public async Task<ActionResult> AddLike(string username)
     {
       var sourceUserId = User.GetUserId();
-      var likedUser = await _unitOfWork.UserRepository.GetUserByUserNameAsync(username);
+      var likedUser = await _unitOfWork.UserRepository.GetUserByUsernameAsync(username);
       var sourceUser = await _unitOfWork.LikesRepository.GetUserWithLikes(sourceUserId);
 
       if (likedUser == null) return NotFound();
