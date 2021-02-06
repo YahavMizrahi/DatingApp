@@ -53,10 +53,7 @@ namespace API.Data.Repository
          userParams.PageSize);
     }
 
-    public async Task<bool> SaveAllAsync()
-    {
-      return await _context.SaveChangesAsync() > 0;
-    }
+
 
     public async Task<IEnumerable<AppUser>> GetUsersAsync()
     {
