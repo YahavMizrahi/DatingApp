@@ -1,76 +1,29 @@
 <nav
   class="navbar navbar-expand-md navbar-dark fixed-top"
-  style="background-color: rgb(0, 48, 121)"
+  style="background-color: rgb(32, 53, 85)"
 >
   <div class="container">
-    <a class="navbar-brand nameapp" routerLink="/">Dating App</a>
+    <a  class="navbar-brand nameapp" routerLink="/members">Dating <i class="fa fa-heart" style="color: crimson;"></i> App</a>
 
-    <!-- <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarCollapse"
-      aria-controls="navbarCollapse"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    > 
-      <span class="navbar-toggler-icon"></span>
-    </button>-->
 
     <ul class="navbar-nav mr-auto">
       <ng-container *ngIf="accountService.currentUser$ | async">
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/members"
-            >Matches</a
-          >
+          <a class="nav-link" routerLinkActive="active" routerLink="/members">Matches</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/lists"
-            >Lists</a
-          >
+          <a class="nav-link" routerLinkActive="active" routerLink="/lists">Lists</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/messages">
-            Messages</a
-          >
+          <a class="nav-link" routerLinkActive="active" routerLink="/messages">Messages</a>
         <li *appHasRole='["Admin","Moderator"]' class="nav-item">
-          <a class="nav-link" routerLinkActive="active" routerLink="/admin">
-            Admin</a
-          >
+          <a class="nav-link" routerLinkActive="active" routerLink="/admin">Admin</a>
         </li>
-      </ng-container>
-      <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/errors">
-          Errors</a
-        >
+        <li *appHasRole='["Admin"]' class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/errors">Errors</a>
       </li>
+      </ng-container>
     </ul>
-
-    <!-- <div class="dropdown btn-group" appDropdown>
-      <button type="button" class="dropdown-toggle text-light">
-        Welcome user
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item">Edit Profile</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" (click)="logout()">Logout</a>
-      </div>
-    </div>
-
-    <div *ngIf="accountService.currentUser$ | async" class="btn-group dropdown" appDropdwon>
-      <span style="color: aliceblue;" type="button" class="dropdown-toggle">
-        Welcome user
-        <span class="caret"></span>
-      </span>
-      <ul class="dropdown-menu">
-        <li>
-          <a>Edit Profile</a>
-        </li>
-        <li style="border: 3px solid green">
-          <a (click)="logout()">Logout</a>
-        </li>
-      </ul>
-      </div> -->
 
     <div
       style="cursor: pointer"
