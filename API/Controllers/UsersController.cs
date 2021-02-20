@@ -63,7 +63,7 @@ namespace API.Controllers
 
       _unitOfWork.UserRepository.Update(user);
 
-      if (await _unitOfWork.Complate()) return NoContent();
+      if (await _unitOfWork.Complete()) return NoContent();
 
       return BadRequest("Failed to update user");
     }
@@ -85,7 +85,7 @@ namespace API.Controllers
 
       user.Photos.Add(photo);
 
-      if (await _unitOfWork.Complate())
+      if (await _unitOfWork.Complete())
       {
         return CreatedAtRoute("GetUser", new { username = user.UserName }, _mapper.Map<PhotoDto>(photo));
       }
@@ -106,7 +106,7 @@ namespace API.Controllers
       if (currentMain != null) currentMain.IsMain = false;
       photo.IsMain = true;
 
-      if (await _unitOfWork.Complate()) return NoContent();
+      if (await _unitOfWork.Complete()) return NoContent();
 
       return BadRequest("Failed to set main photo");
     }
@@ -130,7 +130,7 @@ namespace API.Controllers
 
       user.Photos.Remove(photo);
 
-      if (await _unitOfWork.Complate()) return Ok();
+      if (await _unitOfWork.Complete()) return Ok();
 
       return BadRequest("Failed to delete the photo");
     }

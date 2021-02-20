@@ -38,7 +38,7 @@ namespace API.Controllers
       };
       sourceUser.LikedUsers.Add(userLike);
 
-      if (await _unitOfWork.Complate())
+      if (await _unitOfWork.Complete())
       {
         return Ok();
       }

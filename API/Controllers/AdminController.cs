@@ -87,7 +87,7 @@ namespace API.Controllers
 
       if (!user.Photos.Any(x => x.IsMain)) photo.IsMain = true;
 
-      await _unitOfWork.Complate();
+      await _unitOfWork.Complete();
 
       return Ok();
     }
@@ -114,7 +114,7 @@ namespace API.Controllers
         _unitOfWork.PhotoRepository.RemovePhoto(photo);
       }
 
-      await _unitOfWork.Complate();
+      await _unitOfWork.Complete();
 
       return Ok();
     }

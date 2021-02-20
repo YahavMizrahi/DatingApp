@@ -1,192 +1,173 @@
 [
-    {
-        "UserName": "Lisa",
-        "Gender": "female",
-        "DateOfBirth": "1956-07-22",
-        "KnownAs": "Lisa",
-        "Created": "2020-06-24",
-        "LastActive": "2020-06-21",
-        "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
-        "LookingFor": "Dolor anim cupidatat occaecat aliquip et Lorem ut elit fugiat. Mollit eu pariatur est sunt. Minim fugiat sit do dolore eu elit ex do id sunt. Qui fugiat nostrud occaecat nisi est dolor qui fugiat laborum cillum. Occaecat consequat ex mollit commodo ad irure cillum nulla velit ex pariatur veniam cupidatat. Officia veniam officia non deserunt mollit.\r\n",
-        "Interests": "Sit sit incididunt proident velit.",
-        "City": "Greenbush",
-        "Country": "Martinique",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/54.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Karen",
-        "Gender": "female",
-        "DateOfBirth": "1995-10-12",
-        "KnownAs": "Karen",
-        "Created": "2019-12-09",
-        "LastActive": "2020-05-06",
-        "Introduction": "Laborum dolore aliquip voluptate sunt cupidatat fugiat. Aliqua cillum deserunt do sunt ullamco aute Lorem nisi irure velit esse excepteur ex qui. Aliquip cupidatat officia ullamco duis veniam quis elit dolore nisi proident exercitation id cillum ullamco. In exercitation aliqua commodo veniam culpa duis commodo mollit et sint culpa.\r\n",
-        "LookingFor": "Dolor magna eu reprehenderit nostrud do et. Amet voluptate ut laboris ut officia eiusmod exercitation elit labore anim. In consequat ut ex adipisicing irure. Sit proident sint laboris est proident aute mollit minim et mollit. Cillum in enim velit occaecat aliquip. Voluptate aliquip et culpa est ad proident elit duis.\r\n",
-        "Interests": "Dolor aliquip velit amet aliqua minim labore sit laboris non aliquip cillum.",
-        "City": "Celeryville",
-        "Country": "Grenada",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/50.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Margo",
-        "Gender": "female",
-        "DateOfBirth": "1959-01-24",
-        "KnownAs": "Margo",
-        "Created": "2019-08-10",
-        "LastActive": "2020-05-12",
-        "Introduction": "Dolor ut mollit sunt fugiat magna do eu et aliqua. Dolor consectetur reprehenderit irure non adipisicing ad irure sint id amet reprehenderit esse consectetur ex. Nisi sunt minim amet dolore eiusmod occaecat commodo nostrud tempor dolore velit. Fugiat labore duis nulla do officia voluptate ullamco. Velit ex ullamco cillum amet qui anim et ullamco adipisicing fugiat exercitation aliqua. Consectetur et do labore enim aliqua occaecat.\r\n",
-        "LookingFor": "Magna consectetur amet sint aliqua cillum proident commodo. Irure aute ad do dolore sunt aliqua sint aliqua sint. Qui eiusmod veniam qui adipisicing id incididunt non. Ad occaecat proident eiusmod ex dolor aliqua velit laboris qui cillum Lorem enim ex enim. Magna nisi duis minim deserunt.\r\n",
-        "Interests": "Commodo do eiusmod quis labore est non.",
-        "City": "Rosewood",
-        "Country": "Svalbard and Jan Mayen Islands",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/14.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Lois",
-        "Gender": "female",
-        "DateOfBirth": "1988-06-22",
-        "KnownAs": "Lois",
-        "Created": "2019-04-24",
-        "LastActive": "2020-06-17",
-        "Introduction": "Cillum elit nostrud enim laboris pariatur labore ipsum ut. Quis elit irure sint velit laboris anim Lorem laboris. Labore reprehenderit magna officia aliquip pariatur ea id id commodo. Culpa duis non ex nisi. Deserunt pariatur aliqua consequat reprehenderit sunt ex exercitation.\r\n",
-        "LookingFor": "Dolor est cupidatat dolor cupidatat cillum amet veniam eiusmod aliqua adipisicing aliquip proident adipisicing. Non nulla ex nisi magna ut cillum Lorem ad. Fugiat nulla laboris consequat excepteur ut est veniam voluptate ut officia anim reprehenderit proident sunt. Do proident laboris consequat laboris cillum minim reprehenderit velit.\r\n",
-        "Interests": "Duis in est laboris anim pariatur incididunt mollit laboris ea velit aliquip cillum.",
-        "City": "Orviston",
-        "Country": "Zimbabwe",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/11.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Ruthie",
-        "Gender": "female",
-        "DateOfBirth": "1956-01-12",
-        "KnownAs": "Ruthie",
-        "Created": "2019-04-30",
-        "LastActive": "2020-06-21",
-        "Introduction": "Qui ipsum voluptate exercitation officia nisi velit adipisicing exercitation sint nulla do. Qui fugiat non nisi excepteur et duis elit consectetur ullamco velit fugiat. Sit do esse cupidatat quis eiusmod cupidatat.\r\n",
-        "LookingFor": "Est quis dolore duis excepteur exercitation reprehenderit ipsum elit aliquip dolor nostrud. Sint incididunt sunt deserunt pariatur pariatur minim velit voluptate consequat amet qui. Sit cillum ullamco culpa deserunt commodo culpa ad anim. Do aliqua aute proident eiusmod esse veniam ipsum nisi anim veniam ut aliquip incididunt culpa.\r\n",
-        "Interests": "Elit Lorem aliquip deserunt cupidatat ex aliquip ullamco.",
-        "City": "Germanton",
-        "Country": "Antigua and Barbuda",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/84.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Todd",
-        "Gender": "male",
-        "DateOfBirth": "1950-02-07",
-        "KnownAs": "Todd",
-        "Created": "2019-04-29",
-        "LastActive": "2020-05-16",
-        "Introduction": "Mollit elit cillum dolore ea laboris consequat excepteur eiusmod eiusmod qui magna mollit occaecat. Sint qui ut veniam non. Est non veniam magna in consectetur ullamco eiusmod in elit aute ea ipsum aliquip. Duis nisi do dolore ad. Consectetur incididunt quis exercitation aliquip officia. Ex anim pariatur veniam fugiat aute consequat quis nisi in quis.\r\n",
-        "LookingFor": "Magna ex non ullamco ipsum commodo minim cupidatat sit. Sint dolor enim amet cupidatat. Anim et ea officia ea officia veniam adipisicing tempor. Labore consequat in duis deserunt tempor aliqua. Eu incididunt id deserunt proident ullamco aliqua culpa officia anim deserunt fugiat amet voluptate qui. In id non sint sint aliqua commodo reprehenderit excepteur cillum Lorem minim.\r\n",
-        "Interests": "Esse cillum deserunt fugiat deserunt irure ea esse deserunt quis exercitation velit do nisi reprehenderit.",
-        "City": "Cliff",
-        "Country": "British Indian Ocean Territory",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/90.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Porter",
-        "Gender": "male",
-        "DateOfBirth": "1967-04-09",
-        "KnownAs": "Porter",
-        "Created": "2020-04-05",
-        "LastActive": "2020-06-23",
-        "Introduction": "Qui adipisicing enim mollit magna fugiat. Quis laborum sit adipisicing Lorem veniam magna. Aliqua ex occaecat id duis aute excepteur quis eu eiusmod. Cillum consectetur dolore officia consequat veniam nulla qui occaecat ullamco ipsum sit incididunt aute ullamco.\r\n",
-        "LookingFor": "Officia id adipisicing duis culpa aute voluptate Lorem quis aliquip qui. Cupidatat aliquip amet reprehenderit excepteur amet et est dolore est. Veniam pariatur elit non ullamco labore quis do. Ad non cillum nisi non. Non cupidatat nisi fugiat officia tempor officia sunt qui duis.\r\n",
-        "Interests": "Aliquip proident pariatur excepteur incididunt irure et.",
-        "City": "Welda",
-        "Country": "Christmas Island",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/87.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Mayo",
-        "Gender": "male",
-        "DateOfBirth": "1990-03-23",
-        "KnownAs": "Mayo",
-        "Created": "2020-03-14",
-        "LastActive": "2020-05-17",
-        "Introduction": "Aliquip labore nisi veniam exercitation sit laborum nisi pariatur dolore tempor irure. Ad officia et eu cupidatat qui irure pariatur qui excepteur dolor ut eiusmod. Exercitation qui cillum elit elit officia elit culpa eu consequat cupidatat velit esse.\r\n",
-        "LookingFor": "Duis tempor amet officia irure amet do ipsum est dolore culpa id Lorem exercitation labore. Cupidatat minim duis nulla occaecat excepteur anim laboris id culpa ullamco culpa. Ullamco mollit labore mollit esse labore eiusmod elit enim voluptate laborum irure amet eu in. Pariatur consectetur Lorem velit incididunt excepteur. Magna proident nulla ex laboris veniam tempor proident nisi elit. Ex tempor excepteur eiusmod et occaecat laboris ad ex veniam voluptate. Ipsum mollit voluptate nulla eiusmod nostrud sit anim anim qui est aute pariatur sint.\r\n",
-        "Interests": "Duis consectetur proident labore velit minim irure proident incididunt officia duis.",
-        "City": "Clarence",
-        "Country": "Burkina Faso",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/57.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Skinner",
-        "Gender": "male",
-        "DateOfBirth": "1952-12-01",
-        "KnownAs": "Skinner",
-        "Created": "2019-01-28",
-        "LastActive": "2020-06-07",
-        "Introduction": "Cupidatat dolor irure officia qui consequat ea laborum excepteur esse. Esse qui cupidatat minim laborum velit occaecat officia. Nulla consectetur nisi laborum in eu fugiat ipsum magna. Ipsum sunt consectetur reprehenderit ea consectetur fugiat anim enim nostrud. Ut fugiat cupidatat aliquip ipsum laborum adipisicing sint tempor. Eu deserunt aute Lorem duis exercitation aute aute commodo ut eu elit elit commodo officia.\r\n",
-        "LookingFor": "Sunt est cillum nisi officia cupidatat sit ullamco. Labore aliquip pariatur amet velit labore cillum irure dolor. Anim ut cupidatat qui pariatur veniam eu. Eu est cillum non amet consectetur deserunt eiusmod ea sint nostrud quis ipsum cillum. Irure id et minim do nostrud consectetur quis ex duis nostrud dolor. Veniam enim sint proident officia sint enim eiusmod occaecat adipisicing do ad proident.\r\n",
-        "Interests": "Pariatur qui ut commodo laboris officia.",
-        "City": "Herald",
-        "Country": "Poland",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/11.jpg",
-                "IsMain": true
-            }
-        ]
-    },
-    {
-        "UserName": "Davis",
-        "Gender": "male",
-        "DateOfBirth": "1978-03-20",
-        "KnownAs": "Davis",
-        "Created": "2020-02-25",
-        "LastActive": "2020-06-11",
-        "Introduction": "Voluptate sunt adipisicing ea nisi ex ullamco veniam dolor. Dolor do et exercitation in. Aute enim pariatur amet commodo. Deserunt consectetur quis culpa aliqua voluptate ipsum exercitation exercitation exercitation ea aliqua sunt.\r\n",
-        "LookingFor": "Do do minim est incididunt minim qui aliqua nulla pariatur culpa pariatur culpa non. Aliquip esse quis ullamco sint voluptate. Eiusmod reprehenderit nostrud elit eu. Sit est incididunt elit excepteur eu non. Non tempor labore nisi consequat excepteur magna non velit. Nostrud labore ex nostrud magna adipisicing aute exercitation ad in incididunt pariatur anim. Officia dolor proident nulla laboris quis.\r\n",
-        "Interests": "Labore consectetur labore ut nulla voluptate nulla quis labore tempor dolor laborum.",
-        "City": "Lupton",
-        "Country": "Luxembourg",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/93.jpg",
-                "IsMain": true
-            }
-        ]
-    }
+  {
+    "UserName": "ManBat",
+    "Gender": "male",
+    "DateOfBirth": "1980-06-01",
+    "KnownAs": "Man-Bat",
+    "Created": "1970-06-01",
+    "LastActive": "2020-06-21",
+    "Introduction": "Man-Bat (Dr. Robert Kirkland) is a fictional supervillain, and anti-hero appearing in comic books published by DC Comics. Introduced in Detective Comics #400 (June 1970) as an enemy of the superhero Batman,the character has since endured as one of the Dark Knight's most prominent villains, and belongs to the collective of adversaries that make up his rogues gallery.Man-Bat originated as an anthropomorphic, feral, bat-like creature, lacking sentience and acting purely on instinct, the result of Langstorm testing a serum that could supposedly give humans a bat's acute sonar sense on himself.\r\n",
+    "LookingFor": "By taking his bat-gland formula, Kirk Langstrom can transform himself into a bat-like creature. By taking an antidote or if the bat-gland formula wears off, he can return to human form. As the Man-Bat, his strength, agility and endurance are all enhanced to superhuman levels. Kirk possesses an extra set of digits that form leathery bat wings that allow him to fly, super-sensitive hearing, and sonar. He emits high-pitched sound waves and can hear the echoes they make when they bounce off nearby objects, enabling the Man-Bat to navigate perfectly in pitch black darkness. If in the Man-Bat form for a prolonged time, he loses control over his bestial side and works purely on instinct, making him prone to harm friend and foe alike.\r\n",
+    "Interests": " Batman managed to reverse the effects, but Langstrom would return as Man-Bat time and time again, albeit not necessarily as a villain, as Langstrom would sometimes retain enough sanity to use his powers for good.\r\n",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://static.wikia.nocookie.net/marvel_dc/images/8/82/Detective_Comics_Vol_2_23.4_Man-Bat_Textless.jpg/revision/latest/scale-to-width-down/1000?cb=20130925201325",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Riddler",
+    "Gender": "male",
+    "DateOfBirth": "1992-10-12",
+    "KnownAs": "Riddler",
+    "Created": "1948-10-12",
+    "LastActive": "2020-05-06",
+    "Introduction": "The Riddler (Edward Nigma, also known as Edward Nygma or Edward Nashton) is a fictional supervillain appearing in comic books. He first appeared in Detective Comics #140 (October 1948). The Riddler is commonly depicted as a criminal mastermind in Gotham City who takes delight in incorporating riddles and puzzles into his schemes, leaving them as clues for the authorities to solve. The Riddler is one of the most enduring enemies of the superhero Batman and belongs to the collective of adversaries that make up his rogues gallery.\r\n",
+    "LookingFor": "The Riddler has an obsession with riddles, puzzles, and word games. The character frequently delights in over-stating his \"intellectual superiority\" and on forewarning both Batman and the police of his capers by sending them complex clues. His name is a pun itself, Edward Nigma (Enigma – a person or thing that is difficult to understand). With this self-conscious use of a gimmick, Riddler's crimes are flamboyant and ostentatious and usually he is depicted as less violent than other major Batman villains such as the Joker or Two-Face. The character is depicted as wearing a domino mask either with a green unitard with question mark prints, or a green suit and bowler hat. A black, green, or purple question mark serves as his visual motif.\r\n",
+    "Interests": "Riddle: I am an odd number. Take away a letter and I become even. What number am I?\nAnswer: Seven.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://upload.wikimedia.org/wikipedia/en/8/84/Riddler_%28Edward_Nygma_-_circa_2020%29.png",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Batwoman",
+    "Gender": "female",
+    "DateOfBirth": "1980-07-10",
+    "KnownAs": "Batwoman",
+    "Created": "1956-07-10",
+    "LastActive": "2020-05-12",
+    "Introduction": "Batwoman is a fictional superhero appearing in American comic books published by DC Comics. Katherine Rebecca \"Kate\" Kane is a wealthy heiress who becomes inspired by the superhero Batman and chooses, like him, to put her wealth and resources towards a campaign to fight crime as a masked vigilante in her home of Gotham City.\r\n",
+    "LookingFor": "The modern character as depicted in comics works relatively independently of Batman, but has gained a considerable profile in recent years, both within the DC Comics publishing schedule and the publisher's fictional universe.\r\n",
+    "Interests": "She since had several runs in her own eponymous Batwoman monthly comic book and has had stints in the lead role in Detective Comics, the flagship Batman comic book for which DC Comics is named.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://assets1.ignimgs.com/2019/07/17/batwoman-button-1563388173113.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Batman",
+    "Gender": "male",
+    "DateOfBirth": "1970-03-30",
+    "KnownAs": "Batman",
+    "Created": "1939-03-30",
+    "LastActive": "2020-06-17",
+    "Introduction": "Batman's inexhaustible wealth gives him access to advanced technologies, and as a proficient scientist, he is able to use and modify these technologies to his advantage. In the stories, Batman is regarded as one of the world's greatest detectives, if not the world's greatest crime solver.\r\n",
+    "LookingFor": "Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha, he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night.\r\n",
+    "Interests": "Batman does not possess any superpowers, instead relying on his intellect, fighting skills, and wealth.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://cdn1-www.superherohype.com/assets/uploads/2013/11/batmane3-1.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Joker",
+    "Gender": "male",
+    "DateOfBirth": "1985-04-25",
+    "KnownAs": "Joker",
+    "Created": "1940-04-25",
+    "LastActive": "2020-06-21",
+    "Introduction": "The Joker is a supervillain who appears in American comic books published by DC Comics.\r\n",
+    "LookingFor": "The Joker possesses no superhuman abilities, instead using his expertise in chemical engineering to develop poisonous or lethal concoctions and thematic weaponry, including razor-tipped playing cards, deadly joy buzzers, and acid-spraying lapel flowers.\r\n",
+    "Interests": "One of the most iconic characters in popular culture, the Joker has been listed among the greatest comic book villains and fictional characters ever created. The character's popularity has seen him appear on a variety of merchandise, such as clothing and collectible items, inspire real-world structures (such as theme park attractions), and be referenced in a number of media.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://pyxis.nymag.com/v1/imgs/0a8/5d1/3139b0b2fc427ff34fe5394bd1625d8527-2019-critics-joker.rsquare.w1200.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Huntress",
+    "Gender": "female",
+    "DateOfBirth": "1989-04-07",
+    "KnownAs": "Huntress",
+    "Created": "1989-04-07",
+    "LastActive": "2020-05-16",
+    "Introduction": "The Huntress, also known as Helena Rosa Bertinelli, is a fictional superhero appearing in American comic books published by DC Comics.\r\n",
+    "LookingFor": "After she witnesses the mob-ordered murder of her parents at the age of 19, she crusades to put an end to the Mafia. She travels, accompanied and trained by her bodyguard Sal, before returning to Gotham to make her debut as the Huntress.\r\n",
+    "Interests": "Batman rarely accepts the Huntress, regarding her as unpredictable and violent. However, when Commissioner Gordon questions Batman about his attitude towards the Huntress, Batman replies, \"You know exactly why I don't approve...You're not the only one she reminds of Barbara\"—in reference to Barbara Gordon, who had previously fought crime as Batgirl. Others in the Batman family feel differently; for instance, Tim Drake has a good relationship with her. Early in his career, he works with the female vigilante and later clears her name in a murder case.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://static.wikia.nocookie.net/batman/images/e/e9/Huntress_005.jpg/revision/latest/top-crop/width/360/height/450?cb=20111103025948",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Catwoman",
+    "Gender": "female",
+    "DateOfBirth": "1987-03-30",
+    "KnownAs": "Catwoman",
+    "Created": "1939-03-30",
+    "LastActive": "2020-06-23",
+    "Introduction": "Catwoman (Selina Kyle) is a fictional character created by Bill Finger and Bob Kane who appears in American comic books published by DC Comics, commonly in association with Batman. Debuting as \"the Cat\" in Batman #1 (spring 1940), she is one of the Dark Knight's most enduring enemies and belongs to the collective of adversaries that make up his rogues' gallery. However, the character has also been depicted as an anti-heroine and became Batman's best known love interest, with many stories depicting their complex love-hate relationship.\r\n",
+    "LookingFor": "Catwoman is a Gotham City burglar who typically wears a tight, one-piece outfit and uses a bullwhip for a weapon. She was originally characterized as a supervillain and adversary of Batman, but she has been featured in a series since the 1990s which portrays her as an antiheroine, often doing the wrong things for the right reasons.\r\n",
+    "Interests": "The character thrived since her earliest appearances, but she took an extended hiatus from September 1954 to November 1966 due to the developing Comics Code Authority in 1954. These issues involved the rules regarding the development and portrayal of female characters that were in violation of the Comics Code, a code which is no longer in use. In the comics, Holly Robinson and Eiko Hasigawa have both adopted the Catwoman identity, apart from Selina Kyle.",
+    "City": "Batman DC",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://www.dccomics.com/sites/default/files/field/image/CATWOMAN-80TH_5e1f90a081e2a7.69862733.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "WonderWomen",
+    "Gender": "female",
+    "DateOfBirth": "1990-10-01",
+    "KnownAs": "Wonder Women",
+    "Created": "1941-10-01",
+    "LastActive": "2020-05-17",
+    "Introduction": "Diana is depicted as a masterful athlete, acrobat, fighter and strategist, trained and experienced in many ancient and modern forms of armed and unarmed combat, including exclusive Amazonian martial arts. With her godlike abilities of incalculable superhuman strength, nigh-invulnerability, speed, flight, fast healing and semi-immortality, Diana's fighting prowess is enhanced.\r\n",
+    "LookingFor": "In some versions, her mother trained her, as Wonder Girl, for a future career as Wonder Woman.\r\n",
+    "Interests": "In her homeland, the island nation of Themyscira, her official title is Princess Diana of Themyscira. When blending into the society outside of her homeland, she sometimes adopts her civilian identity Diana Prince.",
+    "City": " Justice League",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://cdn.vox-cdn.com/thumbor/Ia_Cyth1PDyN8nLltrMSFv85rwY=/0x0:1280x640/1200x800/filters:focal(467x58:671x262)/cdn.vox-cdn.com/uploads/chorus_image/image/55115281/wonderwoman2.0.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "BlackCanary",
+    "Gender": "female",
+    "DateOfBirth": "1952-12-01",
+    "KnownAs": "Black Canary",
+    "Created": "2019-01-28",
+    "LastActive": "2020-06-07",
+    "Introduction": "Robert Kanigher and Carmine Infantino created the character in 1947 to be featured in Flash Comics as a supporting character. Appearing first as a clandestine crime-fighter who infiltrates criminal organizations to break them from the inside, the Black Canary was drawn with fishnet stockings and a black leather jacket to connote images of a sexualized yet strong female character.\r\n",
+    "LookingFor": "In addition to her martial arts skills, the Black Canary has been depicted as an expert motorcyclist, gymnast, covert operative and investigator. She is also an excellent leader and tactician, having served as the field commander of the Birds of Prey and the leader of the Justice League and League of Assassins for a time.\r\n",
+    "Interests": "Her superpower, the canary cry, allows her to create ultrasonic vibrations whenever she screams, allowing her to severely damage both organic and inorganic objects. Her canary cry has been depicted as having 10-fold the capabilities of most sonic weapons and has even been depicted as breaking metals and having the resonance to affect and shatter Earth. In The New 52, her canary cry now grants her the ability to glide and propel herself across long distances by screaming downwards. Due to this reliance on speech, she is often bound and gagged by villains as a means of incapacitation. Despite her power, the Black Canary often relies on her martial arts skills instead, preferring to use her canary cry only during urgent situations, such as against superpowered opponents.",
+    "City": " Justice League",
+    "Country": "Detective Comics",
+    "Photos": [
+      {
+        "Url": "https://www.tvovermind.com/wp-content/uploads/2017/07/Black-Canary.jpg",
+        "IsMain": true
+      }
+    ]
+  }    
 ]
